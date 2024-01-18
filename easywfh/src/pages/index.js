@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import kite from "../../public/kite.png"
 
 import Link from "next/link"
 import {
@@ -87,42 +88,24 @@ const Home = () => {
           <Grid item xs={12} md={16} lg={16}>
             <Card style={{ backgroundColor: "#001540" }}>
               <Grid item xs={6} md={8} lg={8}>
-                <Card style={{ backgroundColor: "#001540", margin: ".2rem" }}>
-                  <CardActionArea
-                    style={{ display: "flex", justifyContent: "center" }}
-                  >
-                    <Typography
+                <Card style={{ backgroundColor: "#001540", margin: ".2rem",  }}>
+                </Card>
+              </Grid>
+             
+                 <Card style={{ backgroundColor: "#001540", margin: ".2rem", display: "flex", justifyContent: "center", alignItems: "center", }}>
+                 <Typography
                       variant="h5"
                       color="secondary"
                       style={{
                         fontFamily: "Urbanist",
                         textAlign: "center",
                         margin: ".5rem",
-                        underline: "none",
                       }}
                     >
-                      My fav work from anywhere links
+                      Some of the best work from anywhere gigs
+                      <br />
                     </Typography>
-                  </CardActionArea>
                 </Card>
-              </Grid>
-              <CardActions
-                style={{
-                  display: "flex",
-                  justifyContent: "center",
-                  padding: "1.3rem",
-                  alignItems: "center",
-                }}
-              >
-                <Button
-                  size="large"
-                  color="secondary"
-                  variant="outlined"
-                  href="https://platform.autods.com/register?ref=OTUyMDc0"
-                >
-                  Automated dropship online business
-                </Button>
-              </CardActions>
               <CardActions
                 style={{
                   display: "flex",
@@ -172,7 +155,7 @@ const Home = () => {
                   variant="outlined"
                   href="https://2b645827pctofkdusbzcni1ndi.hop.clickbank.net/?tid=linktree"
                 >
-                  Write reviews, get paid
+                  Write app reviews, get paid
                 </Button>
               </CardActions>
 
@@ -190,7 +173,25 @@ const Home = () => {
                   variant="outlined"
                   href="https://8c452budokvvcpecw5s-xmqgjh.hop.clickbank.net/?tid=linktreeeasywfh"
                 >
-                  Get paid on your fav social media
+                  Get paid to use your fav social media
+                </Button>
+              </CardActions>
+              <CardActions
+                style={{
+                  display: "flex",
+                  justifyContent: "center",
+                  padding: "1.3rem",
+                  alignItems: "center",
+                }}
+              >
+                
+                <Button
+                  size="large"
+                  color="secondary"
+                  variant="outlined"
+                  href="https://platform.autods.com/register?ref=OTUyMDc0"
+                >
+                  Automate your dropshippig online business
                 </Button>
               </CardActions>
             </Card>
@@ -210,12 +211,12 @@ const Home = () => {
               <Card style={{ backgroundColor: "#001540", margin: ".2rem" }}>
                 <CardActionArea>
                   <CardContent style={{ textAlign: "center" }}>
-                    {/* <Image
+                    <Image
                       alt="kitesurf-site"
                       src={kite}
                       width={400}
                       height={300}
-                    ></Image> */}
+                    ></Image>
                     <Typography
                       color="secondary"
                       margin="1rem"
@@ -231,7 +232,7 @@ const Home = () => {
                         margin: ".5rem",
                       }}
                     >
-                      Kitesurfing Caribbean
+                      Kitesurfing trips in the Caribbean
                     </Typography>
                   </CardContent>
                 </CardActionArea>
