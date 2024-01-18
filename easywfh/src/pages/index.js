@@ -68,6 +68,7 @@ const Home = () => {
       <Head>
         <title>Kara Temple Web Developer</title>
         <meta name="description" content="Kara Temple Portfolio" />
+        <meta name="p:domain_verify" content="e36dc0b921e8d119d162fc60a59d9793"/>
         <link rel="icon" href="/favicon.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
